@@ -3,8 +3,8 @@ layout: lab
 num: lab07
 ready: true
 desc: "min/max, index vs. value"
-assigned: 2017-09-08 11:00:00.00-7
-due: 2017-09-13 16:50:00.00-7
+assigned: 2018-05-08 11:00:00.00-7
+due: 2018-05-13 16:50:00.00-7
 submit_cs_pnum: 780
 ---
 

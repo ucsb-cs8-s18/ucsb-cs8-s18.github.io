@@ -3,8 +3,8 @@ layout: lab
 num: lab00
 ready: true
 desc: "Getting Started"
-assigned: 2017-08-09 09:30:00.00-7
-due: 2017-08-11 17:00:00.00-7
+assigned: 2018-04-09 09:30:00.00-7
+due: 2018-04-11 17:00:00.00-7
 submit_cs_pnum: 767
 ---
 
