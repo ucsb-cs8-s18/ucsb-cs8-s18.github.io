@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab07
-ready: true
+ready: false
 desc: "min/max, index vs. value"
 assigned: 2018-05-08 11:00:00.00-7
 due: 2018-05-13 16:50:00.00-7

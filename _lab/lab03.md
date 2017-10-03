@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab03
-ready: true
+ready: false
 desc: "More functions with test cases"
 assigned: 2018-04-18 11:00:00.00-7
 due: 2018-04-25 16:50:00.00-7

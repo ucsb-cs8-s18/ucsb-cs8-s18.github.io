@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab01
-ready: true
+ready: false
 desc: "Turtle Graphics: your initials and graduation year"
 assigned: 2018-04-10 09:30:00.00-7
 due: 2018-04-18 16:50:00.00-7

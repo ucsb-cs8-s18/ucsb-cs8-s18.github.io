@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab05
-ready: true
+ready: false
 desc: "Turtle Graphics: Scene from a forest"
 assigned: 2018-04-25 11:00:00.00-7
 due: 2018-05-01 16:50:00.00-7

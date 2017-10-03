@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab02
-ready: true
+ready: false
 desc: "FtoC and CtoF with test cases"
 assigned: 2018-04-17 09:30:00.00-7
 due: 2018-04-23 16:45:00.00-7

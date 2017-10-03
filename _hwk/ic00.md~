@@ -2,8 +2,9 @@
 num: "ic00"
 desc: "Planning lab01 drawings"
 ready: true
-assigned: 2017-08-11 11:00:00.00-7:00
-due: 2017-08-11 16:50:00.00-7:00
+assigned: 2018-04-11 11:00:00.00-7:00
+due: 2018-04-11 16:50:00.00-7:00
+layout: hwk
 ---
 
 <div style="font-size:80%">
@@ -68,7 +69,7 @@ barRightY = startY + height/2
 </div>
 
 <div style="font-size:80%" markdown="1">
-The Fine Print
+The Page Two Fine Print:
 
 * If a letter or digit is repeated, you only need to draw the diagram once.
 * If the letter 'A' is one of your initials, you don't have to do it, unless you want to make the 'A' in a different style than mine.
@@ -82,30 +83,13 @@ use either E or L, etc.)
 <table class="turtle">
 <tr>
 
-<td markdown="1" style="width:300px; height:300px;">
+<td markdown="1" style="width:300px; height:280px;">
 
 ![bounding box](bb_150.png)
 
 </td>
 
-<td markdown="1" style="width:300px; height:300px;">
-
-![bounding box](bb_150.png)
-
-</td>
-</tr>
-</table>
-
-<table class="turtle">
-<tr>
-
-<td markdown="1" style="width:300px; height:300px;">
-
-![bounding box](bb_150.png)
-
-</td>
-
-<td markdown="1" style="width:300px; height:300px;">
+<td markdown="1" style="width:300px; height:280px;">
 
 ![bounding box](bb_150.png)
 
@@ -116,13 +100,30 @@ use either E or L, etc.)
 <table class="turtle">
 <tr>
 
-<td markdown="1" style="width:300px; height:300px;">
+<td markdown="1" style="width:300px; height:280px;">
 
 ![bounding box](bb_150.png)
 
 </td>
 
-<td markdown="1" style="width:300px; height:300px;">
+<td markdown="1" style="width:300px; height:280px;">
+
+![bounding box](bb_150.png)
+
+</td>
+</tr>
+</table>
+
+<table class="turtle">
+<tr>
+
+<td markdown="1" style="width:300px; height:280px;">
+
+![bounding box](bb_150.png)
+
+</td>
+
+<td markdown="1" style="width:300px; height:280px;">
 
 ![bounding box](bb_150.png)
 
