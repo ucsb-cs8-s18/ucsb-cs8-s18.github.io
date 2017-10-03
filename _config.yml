@@ -2,43 +2,30 @@
 course: "CS8"
 legacy_wiki_name: 8wiki
 legacy_wiki_url: "https://foo.cs.ucsb.edu/8wiki" 
-qtr: "M17"
-quarter: "Summer 2017"
-ta_list: "Sanjana, Tawny and Seemanta"
-ta_list_full: "Sanjana Sahayaraj, Tawny Lim and Seemanta Saha"
+qtr: "S18"
+quarter: "Spring 2017"
+ta_list: "First1, First2, and First3"
+ta_list_full: "TA1First Last, TA2First Last, and TA3First Last"
 instructor: "Conrad"
 
-github_url: https://github.com/ucsb-cs8-m17/ucsb-cs8-m17.github.io
+github_url: https://github.com/ucsb-cs8-s18/ucsb-cs8-s18.github.io
 course_site: http://ucsb-cs8.github.io
 
 on_campus: http://proquest.safaribooksonline.com
 off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048
 
-
-
-legacy_wiki_url: https://foo.cs.ucsb.edu/8wiki
-legacy_wiki_name: "8wiki"
-
-
 start_week: 1
-start_date: 2017-08-06 00:00:00.00-7:00
-num_weeks: 6
-extra_exam_week: false
+start_date: 2018-03-31 00:00:00.00-7:00
+num_weeks: 10
+extra_exam_week: true
 sections: "11am,&nbsp;12:30pm,&nbsp;2pm&nbsp;or&nbsp;3:30pm"
 
 cal_dates: >
   [
-  {"label":"First day of session B", "date":"2017-08-07" },
-  {"label":"Solar Eclipse peaks at 10:18am", "date":"2017-08-21"},
-  {"label":"Last day to Add","date":"2017-08-11" },
-  {"label":"Last day to Add with code","date":"2017-08-17" },
-  {"label":"Drop w/ Full Refund","date":"2017-08-11" },
-  {"label":"Drop Deadline (no W grade)","date":"2017-08-22" },
-  {"label":"Univ Holiday", "date":"2017-09-04" },
-  {"label":"Grade Option Change Deadline", "date":"2017-09-05" },    
-  {"label":"Last day of session", "date":"2017-09-16" }			
+  {"label":"First day of Spring Quarter", "date":"2017-08-07" },
+  {"label":"Univ Holiday", "date":"2018-05-28" },
+  {"label":"Last day of instruction", "date":"2018-06-08" }			
   ]
-
 
 
 kramdown:
