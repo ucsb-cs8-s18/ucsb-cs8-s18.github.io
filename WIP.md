@@ -7,6 +7,8 @@ layout: calendar
 
 <div id='calendar' class='calendar'></div>
 
+<div id='calendar' class='calendar'></div>
+
 
 <div data-role="collapsible" data-collapsed="false">
 <h2 id="WIPlabs">WIP Labs:</h2>
