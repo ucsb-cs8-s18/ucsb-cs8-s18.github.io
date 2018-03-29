@@ -5,6 +5,8 @@ title: CS8, Summer 2017, pconrad
 # {{site.course}}, {{site.quarter}} WORK IN PROGRESS
 
 
+<div id='calendar' class='calendar'></div>
+
 
 <div data-role="collapsible" data-collapsed="false">
 <h2 id="WIPlabs">WIP Labs:</h2>
