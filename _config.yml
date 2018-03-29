@@ -3,9 +3,9 @@ course: "CS8"
 legacy_wiki_name: 8wiki
 legacy_wiki_url: "https://foo.cs.ucsb.edu/8wiki" 
 qtr: "S18"
-quarter: "Spring 2017"
+quarter: "Spring 2018"
 ta_list: "First1, First2, and First3"
-ta_list_full: "TA1First Last, TA2First Last, and TA3First Last"
+ta_list_full: "Shane Masuda, TA2First Last, and TA3First Last"
 instructor: "Conrad"
 
 github_url: https://github.com/ucsb-cs8-s18/ucsb-cs8-s18.github.io
@@ -18,13 +18,16 @@ start_week: 1
 start_date: 2018-04-01 00:00:00.00-7:00
 num_weeks: 10
 extra_exam_week: true
-sections: "11am,&nbsp;12:30pm,&nbsp;2pm&nbsp;or&nbsp;3:30pm"
+sections: "8am,&nbsp;9am,&nbsp;10am&nbsp;or&nbsp;11am"
 
 cal_dates: >
   [
-  {"label":"First day of Spring Quarter", "date":"2017-08-07" },
+  {"label":"First day of Spring Quarter", "date":"2018-04-02" },
   {"label":"Univ Holiday", "date":"2018-05-28" },
-  {"label":"Last day of instruction", "date":"2018-06-08" }			
+  {"label":"Last day of instruction", "date":"2018-06-08" },
+  {"label":"Finals Begin", "date":"2018-06-09" },
+  {"label":"Finals End", "date":"2018-06-09" },
+  {"label":"Last day to drop (11pm)", "date":"2018-04-27" },	
   ]
 
 
@@ -35,9 +38,6 @@ kramdown:
 
 exclude:
    - vendor
-   - _exam/e02/cs56_m16_e02/code
-   - _exam/e01/cs56_f16_e01/code
-
 
 timezone: America/Los_Angeles
 
