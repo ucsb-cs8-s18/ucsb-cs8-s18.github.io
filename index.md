@@ -1,5 +1,5 @@
 ---
-title: CS8, Summer 2017, pconrad
+title: CS8
 ---
 
 # {{site.course}}, {{site.quarter}}

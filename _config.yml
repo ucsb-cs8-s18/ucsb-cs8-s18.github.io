@@ -42,6 +42,10 @@ exclude:
 timezone: America/Los_Angeles
 
 collections:
+  staffinfo:
+    output: true
+    permalink: /staffinfo/:path/
+    last_before: false
   hwk:
     output: true
     permalink: /hwk/:path/
@@ -53,6 +57,10 @@ collections:
   labWIP:
     output: true
     permalink: /labWIP/:path/
+    last_before: false
+  hwkWIP:
+    output: true
+    permalink: /hwkWIP/:path/
     last_before: false
   exam:
     output: true
