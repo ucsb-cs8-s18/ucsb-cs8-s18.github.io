@@ -7,6 +7,7 @@ quarter: "Spring 2018"
 ta_list: "First1, First2, and First3"
 ta_list_full: "Shane Masuda, TA2First Last, and TA3First Last"
 instructor: "Conrad"
+mentor_url: "/staff/"
 
 github_url: https://github.com/ucsb-cs8-s18/ucsb-cs8-s18.github.io
 course_site: http://ucsb-cs8.github.io
