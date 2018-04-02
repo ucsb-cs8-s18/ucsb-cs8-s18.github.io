@@ -197,17 +197,15 @@ Next, we'll try submitting our program to Gradescope, which is a new autograder 
 
 ### Creating your Gradescope account
 
-I have manually added everyone (using your @umail.ucsb.edu accounts) currently enrolled in the course to the Gradescope system. You should have received an email from the Gradescope system asking you to create a password. Once you follow the instructions to set your password, you should have access to the autograding system. You should see "CMPSC 8" in your Winter 2018 Courses.
+If you are registered for the course, you are should also be registered at Gradescope.com (via your @umail.ucsb.edu account) Look in your @umail account for an email from the Gradescope system inviting you to create a password. Follow the instructions to set your password; then you should see "CMPSC 8" in your courses for this term.
 
-The lab assignment "Lab00" should appear in your Gradescope dashboard in CMPSC 8. If you haven't submitted anything for this assignment yet, Gradescope will prompt you to upload your files. This prompt is shown below:
+The lab assignment "Lab00" should appear in your Gradescope dashboard under CMPSC 8. If you haven't submitted anything for this assignment yet, Gradescope will prompt you to upload your files. This prompt is shown below:
 
 ![Gradescope upload](Gradescope_upload.png)
 
 You either can navigate to your file(s) or "drag-and-drop" them into the "Submit Programming Assignment" window.
 
-If you already submitted something on Gradescope, it will take you to their "Autograder Results" page. There is a "Resubmit" button on the bottom right that will allow you to update the files for your submission.
-
-For this lab, if everything is correct, you'll see a successful submission passing all of the autograder tests shown below.
+After you submit something on Gradescope, you will have access to the "Autograder Results" page. There is a "Resubmit" button on the bottom right that will allow you to update the files for your submission.   For this lab, if everything is correct, you'll see a successful submission passing all of the autograder tests shown below.
 
 ![Gradescope results](Gradescope_results.png)
 
@@ -216,11 +214,7 @@ If the tests don't pass, you may get some error message that may or may not be o
 ## Final Step:  Log Out
 
 Actually, this is the final step of <em>every lab</em>, but we probably won't
-remind you again after this one.
-
-In fact, you should do this every time you walk away from a lab computer, either in Phelps 3525 or CSIL.
-
-Here's how:
+remind you again after this one.  In fact, you should do this every time you walk away from a lab computer, either in Phelps 3525 or CSIL.   Here's how:
 
 * Find the System Menu at the top of the screen.
 * Select Log Out
