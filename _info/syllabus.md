@@ -11,7 +11,7 @@ Basic Facts
 * **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad)
    * Email is pconrad@cs.ucsb.edu, BUT please use Piazza for course related communication.
 * **Lecture**: TR 3:30pm-4:45am Chem 1171, ATTENDANCE REQUIRED.
-* **TAs**: Shane Masude, and two others TBD (contact via Piazza.com)
+* **TAs**: Shane Masuda, and two others TBD (contact via Piazza.com)
 * **Lab** (50 minute discussion section) Monday 8am, 9am, 10am, 11am ATTENDANCE REQUIRED.                                         
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
