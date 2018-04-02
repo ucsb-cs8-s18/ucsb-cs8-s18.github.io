@@ -195,11 +195,7 @@ I'll demonstrate the use of Idle in lecture, since its much easier to just follo
 
 Next, we'll try submitting our program to Gradescope, which is a new autograder system we will utilize for this course. You'll get some immediate feedback on whether you did it properly.
 
-### Creating your Gradescope account
-
-If you are registered for the course, you are should also be registered at Gradescope.com (via your @umail.ucsb.edu account) Look in your @umail account for an email from the Gradescope system inviting you to create a password. Follow the instructions to set your password; then you should see "CMPSC 8" in your courses for this term.
-
-The lab assignment "Lab00" should appear in your Gradescope dashboard under CMPSC 8. If you haven't submitted anything for this assignment yet, Gradescope will prompt you to upload your files. This prompt is shown below:
+### Using Gradescope to submit your programming assignment
 
 <div style="width:350px; text-align:center; float:right;" markdown="1">
 
@@ -207,11 +203,19 @@ The lab assignment "Lab00" should appear in your Gradescope dashboard under CMPS
 
 </div>
 
+If you are registered for the course, you are should also be registered at Gradescope.com (via your @umail.ucsb.edu account) Look in your @umail account for an email from the Gradescope system inviting you to create a password. Follow the instructions to set your password; then you should see "CMPSC 8" in your courses for this term.
+
+The lab assignment "Lab00" should appear in your Gradescope dashboard under CMPSC 8. If you haven't submitted anything for this assignment yet, Gradescope will prompt you to upload your files. This prompt is shown below:
+
 You either can navigate to your file(s) or "drag-and-drop" them into the "Submit Programming Assignment" window.
 
 After you submit something on Gradescope, you will have access to the "Autograder Results" page. There is a "Resubmit" button on the bottom right that will allow you to update the files for your submission.   For this lab, if everything is correct, you'll see a successful submission passing all of the autograder tests shown below.
 
+<div style="clear:both;">
+  
 ![Gradescope results](Gradescope_results.png)
+
+</div>
 
 If the tests don't pass, you may get some error message that may or may not be obvious at this point. Don't worry - if the tests didn't pass, take a minute to think if your print statement is <strong>EXACTLY</strong> like stated in the lab instructions (including the same capitalization, spaces, punctuation, etc.) and the file name is <strong>EXACTLY</strong> `hello.py`. If your tests didn't pass and you're still not sure why you're getting the error, feel free to ask one of the course helpers. 
 
