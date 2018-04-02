@@ -9,8 +9,7 @@ due: 2018-04-06 17:00:00.00-7
 
 # Introduction
 
-Your first lab for this week is an introduction to programming on CSIL and in the Computer Science lab. 
-You will write your first Python program that will print a specific text output on your computer display.  There are helpers (TAs or undergrad mentors) in each row to assist you.
+This lab is an introduction to Python programming using the Linux Computers in Phelps 3525 and CSIL.  You will write your first Python program that will print a specific text output on your computer display.  There are helpers (TAs or undergrad mentors) in each row to assist you.    
 
 If you miss your discussion section, you need to make up this lab in CSIL (the Computer Science Instructional Lab in Harold Frank Hall)
 on your own time, by {{page.due | date_to_rfc822 }}.
@@ -38,17 +37,11 @@ create a College of Engineering account (also known as a ECI account, or a CSIL 
 
 <https://accounts.engr.ucsb.edu/create/>
 
-We hope you did that&mdash;if so, you should be able to use that account to login on the computers in Phelps 3525, as well as the computers in the CSIL lab. 
-
-If you ever forget the password to your ECI/CSIL account, you can reset it here:
+We hope you did that&mdash;if so, you should be able to use that account to login on the computers in Phelps 3525, as well as the computers in the CSIL lab.   If you ever forget the password to your ECI/CSIL account, you can reset it here:
 
 <https://accounts.engr.ucsb.edu/maintain/>
 
-If your account doesn't work, ask a TA for assistance.
-
-Phelps 3525 is only available during your weekly scheduled discussion section and during Winter 2018, on Mondays 1-5pm, Thursdays 12-3pm, and Fridays 1-5pm.
-
-At other times during the week, you can work in CSIL, the &quot;Computer Science Instructional Lab&quot;.
+If your account doesn't work, ask a course helper for assistance.
 
 The CSIL lab, by the way, is on the ground floor of Harold Frank Hall.  The glass front doors of Harold Frank Hall look out towards the ocean.  Stand just outside those doors with your back towards the ocean.   The doors to the CSIL lab are just on your right.  (If you can't look over your shoulder and see an great big tree, with the ocean just behind it, you are on the wrong side of the building.)   Hours vary--its open almost all the time during the regular school year
 
