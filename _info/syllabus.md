@@ -1,7 +1,7 @@
 ---
-title: "Syllabus, CMPSC 8, Summer 2017"
+title: "Syllabus, CMPSC 8, Spring 2018"
 layout: handout
-ready: false
+ready: true
 ---
 
 Basic Facts
@@ -10,9 +10,9 @@ Basic Facts
 * **Course Web Site**: <http://ucsb-cs8.github.io>
 * **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad)
    * Email is pconrad@cs.ucsb.edu, BUT please use Piazza for course related communication.
-* **Lecture**: TWR 9:30pm-10:50am Psych 1924, ATTENDANCE REQUIRED.
-* **TAs**:  {{site.ta_list_full}} (contact via Piazza.com)
-* **Lab** (80 minute discussion section) Friday 11am, 12:30pm, 2pm or 3:30pm Phelps 3525, ATTENDANCE REQUIRED.                                         
+* **Lecture**: TR 3:30pm-4:45am Chem 1171, ATTENDANCE REQUIRED.
+* **TAs**: Shane Masude, and two others TBD (contact via Piazza.com)
+* **Lab** (50 minute discussion section) Monday 8am, 9am, 10am, 11am ATTENDANCE REQUIRED.                                         
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
 Official UCSB Catalog Description
@@ -190,9 +190,11 @@ A+ grades: These may be awarded to the very best performing students in the clas
 
 | Grade Item                                                                   | Percentage of Final Grade |
 |------------------------------------------------------------------------------|---------------------------|
-| Midterm 2                                                                    | 35 %                      |
-| Final                                                                        | 35 %                      |
-| Labs (typically closed source, some open source), Hwks, In Class Assignments | 30 %                      |
+| Midterms 1                                                                    | 30 %                      |
+| Midterms 2                                                                    | 30 %                      |
+| Final                                                                        | 30 %                      |
+| Labs (programming assignments)                           | 20 %                      |
+| Hwks, In Class Assignments            | 20 %                      |
 
 
 
