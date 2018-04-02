@@ -10,10 +10,10 @@ due: 2018-04-06 17:00:00.00-7
 # Introduction
 
 Your first lab for this week is an introduction to programming on CSIL and in the Computer Science lab. 
-You will write your first Python program that will print a specific text output on your computer display.
+You will write your first Python program that will print a specific text output on your computer display.  There are helpers (TAs or undergrad mentors) in each row to assist you.
 
 If you miss your discussion section, you need to make up this lab in CSIL (the Computer Science Instructional Lab in Harold Frank Hall)
-on your own time, by {{page.due | date_to_rfc822 }}
+on your own time, by {{page.due | date_to_rfc822 }}.
 
 ## Goals for this lab
 
@@ -218,7 +218,7 @@ For this lab, if everything is correct, you'll see a successful submission passi
 
 ![Gradescope results](Gradescope_results.png)
 
-If the tests don't pass, you may get some error message that may or may not be obvious at this point. Don't worry - if the tests didn't pass, take a minute to think if your print statement is <strong>EXACTLY</strong> like stated in the lab instructions (including the same capitalization, spaces, punctuation, etc.) and the file name is <strong>EXACTLY</strong> `hello.py`. If your tests didn't pass and you're still not sure why you're getting the error, feel free to ask your TA. 
+If the tests don't pass, you may get some error message that may or may not be obvious at this point. Don't worry - if the tests didn't pass, take a minute to think if your print statement is <strong>EXACTLY</strong> like stated in the lab instructions (including the same capitalization, spaces, punctuation, etc.) and the file name is <strong>EXACTLY</strong> `hello.py`. If your tests didn't pass and you're still not sure why you're getting the error, feel free to ask one of the course helpers. 
 
 ## Final Step:  Log Out
 
