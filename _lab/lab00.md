@@ -193,15 +193,13 @@ I'll demonstrate the use of Idle in lecture, since its much easier to just follo
 
 ## Step 8: Uploading your program to Gradescope
 
-Next, we'll try submitting our program to Gradescope, which is a new autograder system we will utilize for this course. You'll get some immediate feedback on whether you did it properly.
-
-### Using Gradescope to submit your programming assignment
-
 <div style="width:350px; text-align:center; float:right;" markdown="1">
 
 ![Gradescope upload](Gradescope_upload.png)
 
 </div>
+
+Next, we'll try submitting our program to Gradescope.  You'll get some immediate feedback on whether you did it properly.
 
 If you are registered for the course, you are should also be registered at Gradescope.com (via your @umail.ucsb.edu account) Look in your @umail account for an email from the Gradescope system inviting you to create a password. Follow the instructions to set your password; then you should see "CMPSC 8" in your courses for this term.
 
