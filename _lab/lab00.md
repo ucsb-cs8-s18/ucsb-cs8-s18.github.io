@@ -211,7 +211,7 @@ You either can navigate to your file(s) or "drag-and-drop" them into the "Submit
 
 After you submit something on Gradescope, you will have access to the "Autograder Results" page. There is a "Resubmit" button on the bottom right that will allow you to update the files for your submission.   For this lab, if everything is correct, you'll see a successful submission passing all of the autograder tests shown below.
 
-<div style="clear:both;">
+<div style="clear:both;" markdown="1">
   
 ![Gradescope results](Gradescope_results.png)
 
