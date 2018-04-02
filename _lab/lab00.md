@@ -201,7 +201,11 @@ If you are registered for the course, you are should also be registered at Grade
 
 The lab assignment "Lab00" should appear in your Gradescope dashboard under CMPSC 8. If you haven't submitted anything for this assignment yet, Gradescope will prompt you to upload your files. This prompt is shown below:
 
+<div style="width:350px; text-align:center; float:right;" markdown="1">
+
 ![Gradescope upload](Gradescope_upload.png)
+
+</div>
 
 You either can navigate to your file(s) or "drag-and-drop" them into the "Submit Programming Assignment" window.
 
