@@ -7,6 +7,40 @@ date: 2017-04-03 15:30:00.00-7:00
 
 The syllabus is here:  <https://ucsb-cs8-s18.github.io/info/syllabus/>
 
+# Some of the code from lecture
+
+```python
+import math
+
+def factorialTable(limit):
+    for i in range(limit):
+        print(i,math.factorial(i))
+
+```
+
+
+```python
+import turtle
+
+fred = turtle.Turtle("turtle")
+fred.color("green")
+
+fred.forward(200)
+
+
+def drawSquare(side):
+  for i in range(4): 
+    fred.forward(side)
+    fred.right(90)
+```
+
+```python
+for i in range(5):
+	drawSquare(i * 20)
+
+```
+
+
 # Abstractions and Algorithms
 
 
