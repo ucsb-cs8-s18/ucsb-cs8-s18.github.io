@@ -113,3 +113,38 @@ Note that `**` is right associative, not left associative.
 
 
 
+# For loops
+
+
+This:
+
+```
+>>> for x in schools:
+	print(x)
+
+	
+A
+B
+C
+D
+>>>
+```
+
+Is a short hand for this:
+
+
+```
+>>> x = schools[0]
+>>> print(x)
+A
+>>> x = schools[1]
+>>> print(x)
+B
+>>> x = schools[2]
+>>> print(x)
+C
+>>> x = schools[3]
+>>> print(x)
+D
+>>> 
+```
