@@ -105,6 +105,12 @@ defaults:
   - 
     scope:
       path: ""
+      type: hwkWIP
+    values:
+      layout: hwk
+  - 
+    scope:
+      path: ""
       type: lab
     values:
       layout: lab
