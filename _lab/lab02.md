@@ -4,7 +4,7 @@ num: lab02
 ready: true
 desc: "More practice with writing functions and test cases"
 assigned: 2018-04-10 12:30:00.00-7
-due: 2018-04-17 17:00:00.00-7
+due: 2018-04-20 17:00:00.00-7
 ---
 
 In this lab, you'll get more practice with:
