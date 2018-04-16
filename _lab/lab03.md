@@ -4,7 +4,7 @@ num: lab03
 ready: false
 desc: "More functions with test cases"
 assigned: 2018-04-16 11:00:00.00-7
-due: 2018-04-22 20:00:00.00-7
+due: 2018-04-22 21:00:00.00-7
 ---
 
 In this lab, you'll get more practice with
