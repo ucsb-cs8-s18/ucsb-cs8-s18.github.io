@@ -459,5 +459,5 @@ Here are the items we'll be looking for as we assign those thirty points:
 
 1. (5 pts) Did you add a third test cases for `areaRect` with different values from the other two?
 2. (5 pts) Did you add two more test cases for `isString`?
-3. (5 pts) Do you have five test cases for `isNumber`?
-4. (15 pts) Do you test cases for countX that cover upper and lower case X, as well as at least one cases of passing a parameter that isn't a string?
+3. (10 pts) Do you have five test cases for `isNumber`?
+4. (10 pts) Do you test at least five cases for countX, covering both upper and lower case X, as well as passing a parameter that isn't a string?
