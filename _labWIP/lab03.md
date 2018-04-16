@@ -97,7 +97,7 @@ Finally, run the code, and ensure that you don't have any syntax errors
 in your Python code.
 
 
-# Step 6: Add a third test case that you write yourself
+# Step 4: Add a third test case that you write yourself
 
 The third test case should be one that you come up with yourself. The restrictions are that it must be:
 
@@ -107,7 +107,7 @@ The third test case should be one that you come up with yourself. The restrictio
 
 Please write this third test case and save your lab03.py file before proceeding to the next step.
 
-# Step 7: Test your code by hand
+# Step 5: Test your code by hand
 
 Because I want to be sure that you continue to practice the skill,
 test your code by hand first.
@@ -135,7 +135,7 @@ the tests fail, THEN see all of the tests pass.  That's the general idea.
 * We want so see them *all fail* when the function is wrong
 * Then if they *pass* when the function is right, we *trust* the test.
 
-# Step 8: Run pytest on the file so far
+# Step 6: Run pytest on the file so far
 
 As a reminder, you run pytest OUTSIDE of idle, at the regular terminal
 prompt.
@@ -158,14 +158,14 @@ You should see three test failures. If you do, then you ready to fix the code so
 the output of `pytest`, refer back to [lab02](/lab/lab02/])
 
 
-# Step 9: Fixing the code for `areaRect`
+# Step 7: Fixing the code for `areaRect`
 
 So, if you have failing test cases, the thing to do is fix the code so
 that the test cases pass.
 
 Once you have the code correct, try testing both using interactive testing as well as by running `pytest`.
 
-# Step 10: Submit your partially completed work to Gradescope
+# Step 8: Submit your partially completed work to Gradescope
 
 You are by no means finished with this lab.   But, we want to encourage you to make
 a submission to Gradescope now anyway.  Here is why:
@@ -186,7 +186,7 @@ If you have done the steps so far, though most of the tests will fail, you
 should be able to earn at least some partial credit for having uploaded a file called <tt>{{page.num}}</tt>
 
 
-# Step 11: Read these instructions about how the rest of the lab will work
+# Step 9: Read these instructions about how the rest of the lab will work
 
 In each of the steps that remain, you will add an additional function definition,
 and some test cases.
@@ -220,7 +220,7 @@ Once you understand all how this is going to work, you are ready to start coding
 the additional functions.
 
 
-# Step 13: Write an `isString` function and some test cases for it
+# Step 10: Write an `isString` function and some test cases for it
 
 Here is an example of a function that tests whether something is a list or not.
 
@@ -286,7 +286,7 @@ python3 -m pytest lab03.py -k isString
 
 Then finally, try submitting to Gradescope and see if you get the credit for the tests for this function. 
 
-# Step 14: Write an `isNumber` function and some test cases for it
+# Step 11: Write an `isNumber` function and some test cases for it
 
 Our last function is one called `isNumber` that should take a parameter `x` and return
 `True` if the value `x` refers to is either of type `int` or of type `float`.  In any other case, it should return `False`.
@@ -311,7 +311,7 @@ python3 -m pytest lab03.py -k isNumber
 Then test your code by submitting to Gradescope.
 
 
-# Step 15: See 70/100 score on Gradescope; profit.
+# Step 12: See 70/100 score on Gradescope; profit.
 
 At this point, you should see that you have a perfect 70/100 points on Gradescope.
 
