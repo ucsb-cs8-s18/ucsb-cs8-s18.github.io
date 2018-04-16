@@ -422,7 +422,7 @@ def test_countSpaces_raises_ValueError_for_dict():
 
 ```
 
-# Step 16: Add a function `countX`
+# Step 15: Add a function `countX`
 
 Now add a definition, and test cases for a function called `countX` that:
 * takes one parameter
@@ -449,7 +449,7 @@ if s=='X' or 'x':
 
 Write some appropriate test cases.   Your test cases should include both strings with upper and lowercase x, as well as at least one case of an argument that is not a string.   See the test cases for countSpaces for examples.
 
-# Step 20: See 70/100 score on Gradescope; profit.
+# Step 16: See 70/100 score on Gradescope; profit.
 
 At this point, you should see that you have a perfect 70/100 points on Gradescope.
 
