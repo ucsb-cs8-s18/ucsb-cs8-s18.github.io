@@ -310,8 +310,108 @@ python3 -m pytest lab03.py -k isNumber
 
 Then test your code by submitting to Gradescope.
 
+# Step 12: Read over this "countSpaces" function
 
-# Step 12: See 70/100 score on Gradescope; profit.
+Here is an example of a function definition for countSpaces along with some test cases.  Copy it into your lab03 file.
+
+Note that this function works correctly as long as we give it a string as its argument.
+
+```
+def countSpaces(someString):
+    "return the number of spaces in the string"
+    count = 0
+    for s in someString:
+        if s==" ":
+           count += 1
+    return count
+
+```
+
+Let's test this interactively.  We can see that it works properly if it give it a string, counting the number of spaces:
+
+```
+>>> countSpaces("UC Santa Barbara")
+2
+>>> countSpaces("UCSB")
+0
+>>> countSpaces("Cal Poly")
+1
+>>> countSpaces("UC Davis")
+1
+>>> countSpaces(" x ")
+2
+>>> 
+```
+
+But, what if we give it something that isn't a string?  In that case, we get some unfortunate results.
+
+```
+>>> countSpaces({"school":"UC San Diego"})
+0
+>>> countSpaces(3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 4, in numberOfSpaces
+TypeError: 'int' object is not iterable
+>>> 
+```
+
+The problem is that the numberOfSpaces function expects a parameter of a certain type.  It expects a string (`str` in Python).  If we give it something else, we get an error message that doesn't make much sense (e.g. `'int' object is not iterable`) or an answer that doesnt' make sense (e.g. 0 for "UC San Diego").
+
+In the next step, we'll learn a technique for checking the type of parameters and making sure they are reasonable before we proceed to calculate a result.
+
+# Step 13: Modifying `countSpaces` to check parameter type
+
+To ensure that `countSpaces` gives a more sensible error message when we give it something that isn't a string, 
+we can use this Python code:
+
+```
+   if (not type(someString)==str):
+      raise ValueError('The countSpaces function only works on strings')
+```
+
+def countSpaces(someString):
+    "return the number of spaces in the string"
+    if (not type(someString)==str):
+      raise ValueError('The countSpaces function only works on strings')
+    count = 0
+    for s in someString:
+        if s==" ":
+           count += 1
+    return count
+
+```
+
+
+Add this code into the `countSpaces` function, immediately after the docstring, i.e. right before the line `count = 0`.
+
+Then try running it again with parameters that are not strings, and see if you get this result:
+
+
+# Step 14: Add test cases for `countSpaces`
+
+Here are some test cases for `countSpaces`: add these to your file.
+
+```
+def test_countSpaces_1():
+    assert countSpaces("UCSB")==0
+    
+def test_countSpaces_2():
+    assert countSpaces("UC San Diego")==2
+    
+def test_countSpaces_3():
+    assert countSpaces("Cal Poly")==1
+
+def test_countSpaces_ten_spaces():
+    assert countSpaces("          ")==10
+
+def test_countSpaces_space_begin_and_end():
+    assert countSpaces(" x ")==2
+```
+
+
+
+# Step 15: See 70/100 score on Gradescope; profit.
 
 At this point, you should see that you have a perfect 70/100 points on Gradescope.
 
