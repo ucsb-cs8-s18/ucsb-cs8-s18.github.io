@@ -370,23 +370,27 @@ we can use this Python code:
       raise ValueError('The countSpaces function only works on strings')
 ```
 
-def countSpaces(someString):
-    "return the number of spaces in the string"
-    if (not type(someString)==str):
-      raise ValueError('The countSpaces function only works on strings')
-    count = 0
-    for s in someString:
-        if s==" ":
-           count += 1
-    return count
-
-```
-
-
 Add this code into the `countSpaces` function, immediately after the docstring, i.e. right before the line `count = 0`.
 
-Then try running it again with parameters that are not strings, and see if you get this result:
+Then try running it again with parameters that are not strings, and see if you get results like the ones shown below.
 
+Basically, any time we put in something other than a string, we want to always see the message `ValueError: The countSpaces function only works on strings`.  Otherwise, it computes the correct results for us.
+
+```
+>>> countSpaces(3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "lab03.py", line 4, in countSpaces
+    raise ValueError('The countSpaces function only works on strings')
+ValueError: The countSpaces function only works on strings
+>>> countSpaces({"school":"UC San Diego"})
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "lab03.py", line 4, in countSpaces
+    raise ValueError('The countSpaces function only works on strings')
+ValueError: The countSpaces function only works on strings
+>>> 
+```
 
 # Step 14: Add test cases for `countSpaces`
 
@@ -394,24 +398,58 @@ Here are some test cases for `countSpaces`: add these to your file.
 
 ```
 def test_countSpaces_1():
-    assert countSpaces("UCSB")==0
-    
+  assert countSpaces("UCSB")==0
+
 def test_countSpaces_2():
-    assert countSpaces("UC San Diego")==2
-    
+  assert countSpaces("UC San Diego")==2
+
 def test_countSpaces_3():
-    assert countSpaces("Cal Poly")==1
+  assert countSpaces("Cal Poly")==1
 
 def test_countSpaces_ten_spaces():
-    assert countSpaces("          ")==10
+  assert countSpaces("          ")==10
 
 def test_countSpaces_space_begin_and_end():
-    assert countSpaces(" x ")==2
+  assert countSpaces(" x ")==2
+
+def test_countSpaces_raises_ValueError_for_int():
+  with pytest.raises(ValueError):
+    result = countSpaces(3)
+
+def test_countSpaces_raises_ValueError_for_dict():
+  with pytest.raises(ValueError):
+    result = countSpaces({"school":"UC San Diego"})
+
 ```
 
+# Step 16: Add a function `countX`
 
+Now add a definition, and test cases for a function called `countX` that:
+* takes one parameter
+* checks if that parameter is of type `str`; if it isn't, raises a ValueError with an appropriate message
+* counts the number of times the letter X appears.   Both uppercase X and lowercase x should count.
 
-# Step 15: See 70/100 score on Gradescope; profit.
+Examples:
+* `countX("UCSB") should return 0
+* `countX("Fox")` should return 1
+* `countX("Xerox")` should return 2
+* `countX(3) should raise `ValueError` with an appropriate message indicating that a string was expected
+
+Hint: You may need to use `and` or `or`.  Note that to check whether a string called `s` is `X` or `x`, you must write:
+
+```
+if s=='X' or s=='x':
+```
+
+If you write the following, it will run, but it doesn't mean what you think it does:
+
+```
+if s=='X' or 'x':
+```
+
+Write some appropriate test cases.   Your test cases should include both strings with upper and lowercase x, as well as at least one case of an argument that is not a string.   See the test cases for countSpaces for examples.
+
+# Step 20: See 70/100 score on Gradescope; profit.
 
 At this point, you should see that you have a perfect 70/100 points on Gradescope.
 
@@ -419,6 +457,7 @@ That is a perfect score for the automatically graded parts of the lab.   For thi
 
 Here are the items we'll be looking for as we assign those thirty points:
 
-1.  Did you add a third test cases for `areaRect` with different values from the other two?
-
-TODO: Continue this.
+1. (5 pts) Did you add a third test cases for `areaRect` with different values from the other two?
+2. (5 pts) Did you add two more test cases for `isString`?
+3. (5 pts) Do you have test cases for `isNumber`?
+4. (15 pts) Do you test cases for countX that cover upper and lower case X, as well as at least one cases of passing a parameter that isn't a string?
