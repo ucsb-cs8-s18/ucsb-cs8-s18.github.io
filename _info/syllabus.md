@@ -190,9 +190,9 @@ A+ grades: These may be awarded to the very best performing students in the clas
 
 | Grade Item                                                                   | Percentage of Final Grade |
 |------------------------------------------------------------------------------|---------------------------|
-| Midterms 1                                                                    | 30 %                      |
-| Midterms 2                                                                    | 30 %                      |
-| Final                                                                        | 30 %                      |
+| Midterms 1                                                                    | <s>30 %</s> &nbsp;<b>20 %</b>                    |
+| Midterms 2                                                                    | <s>30 %</s> &nbsp;<b>20 %</b>                     |
+| Final                                                                        | <s>30 %</s> &nbsp;<b>20 %</b>                    |
 | Labs (programming assignments)                           | 20 %                      |
 | Hwks, In Class Assignments            | 20 %                      |
 
