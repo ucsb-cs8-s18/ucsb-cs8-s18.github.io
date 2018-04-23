@@ -6,4 +6,7 @@ rvm install ruby-2.4.2
 rvm use 2.4.2
 gem install bundler
 bundle install --path vendor/bundle
+
+./hackfix.sh
+
 echo "Done."
