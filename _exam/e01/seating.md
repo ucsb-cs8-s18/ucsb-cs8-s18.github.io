@@ -11,7 +11,8 @@ exam_end: "2018-04-24 15:30:00"
 http://ucsb-cs8-s18.github.io/exam/e01/seating/
 </div>
 
-<div style="clear:both; font-size:150%" markdown=1>
+<div style="clear:both; font-size:150%" markdown="1">
+
 # Seating Charts 
 
 These are PDFs.  You may need to click, then refresh the page to get them to load.
