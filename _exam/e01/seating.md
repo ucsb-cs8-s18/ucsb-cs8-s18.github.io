@@ -20,4 +20,7 @@ These are PDFs.  You may need to click, then refresh the page to get them to loa
 * [8am section in HFH1132](CS8-E01-8am-section-Midterm-1-Seating-Chart.pdf){: data-ajax="false"}
 * [All other sections in Chem1171](CS8-E01-Midterm-1-Seating-Chart.pdf){: data-ajax="false"}
 
+If you need to request left handed seating or other special exam seating needs, [Fill out this request form](https://goo.gl/forms/TaSMOqajBYtyoCsx2){: data-ajax="false"}.
+
+
 </div>
