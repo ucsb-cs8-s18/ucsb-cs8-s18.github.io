@@ -9,6 +9,12 @@ A: Not for this exam.
 Q2: Do we have to write a call for 3 grams, or is that just an example.
 A: Good catch.  Yes, 3 grams exactly.  The "for example" referred to "at the Python prompt", NOT the amount in the call.
 
+Q3b: Do we assume pytest has already been imported?  A: If you need to import it, write the import statement you need.
+
+3b) Will I be marked off for spaces in my code if I ran out of room on the line? A: Not if your intent is clear.  (Make a note, or use an arrow to indicate where the text "should have been")
+
+3b) Can we write the code for just the test cases, or do we need to repeat the code from Q1? A) Just the test cases.
+
 {% include exam_clock.html %}
 
 # Typos
