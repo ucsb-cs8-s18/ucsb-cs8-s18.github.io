@@ -7,7 +7,7 @@ Q1: Do we need to consider if the input is not an int or float?
 A: Not for this exam.
 
 Q2: Do we have to write a call for 3 <s>grams</s>ounces, or is that just an example.
-A: Good catch.  Yes, 3 grams exactly.  The "for example" referred to "at the Python prompt", NOT the amount in the call.
+A: Good catch.  Yes, 3 <s>grams</s>ounces exactly.  The "for example" referred to "at the Python prompt", NOT the amount in the call.
 
 Q3b: Do we assume pytest has already been imported?  A: If you need to import it, write the import statement you need.
 
