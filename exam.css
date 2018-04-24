@@ -277,7 +277,7 @@ td.h03-table table * td,th {
 	margin: 3%;
     }
 
-    body { font-size: 12px; }
+    body { font-size: 10px; }
 }
 
 table td.odd-page-box {
@@ -308,6 +308,15 @@ td.checkbox {
     font-size: 300%;
     line-height: 90%;
 }
+
+span.checkbox {
+    text-align:center;
+    font-size: 300%;
+    line-height: 90%;
+    padding-left: 0.1em;
+    padding-right: 0.5em;
+}
+
 
 .finePrint {
     font-size: 80%;
