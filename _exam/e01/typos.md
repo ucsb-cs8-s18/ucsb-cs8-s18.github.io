@@ -15,6 +15,8 @@ Q3b: Do we assume pytest has already been imported?  A: If you need to import it
 
 3b) Can we write the code for just the test cases, or do we need to repeat the code from Q1? A) Just the test cases.
 
+General) Do we need docstrings in our functions? A: Not for this exam.
+
 {% include exam_clock.html %}
 
 # Typos
