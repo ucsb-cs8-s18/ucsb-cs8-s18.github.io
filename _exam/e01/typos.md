@@ -17,6 +17,8 @@ Q3b: Do we assume pytest has already been imported?  A: If you need to import it
 
 General) Do we need docstrings in our functions? A: Not for this exam.
 
+General: Can we turn our our exam and leave when we are done? A) Please wait to be dismissed.  We'll invite turnins every 10 miuutes.
+
 {% include exam_clock.html %}
 
 # Typos
