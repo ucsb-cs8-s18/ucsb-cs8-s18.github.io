@@ -1,7 +1,7 @@
 ---
 layout: defaultWithClock
 num: e01
-exam_end: "2018-04-24 15:30:00"
+exam_end: "2018-04-24 16:45:00"
 ---
 Q1: Do we need to consider if the input is not an int or float?  
 A: Not for this exam.
