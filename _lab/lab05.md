@@ -26,10 +26,10 @@ There is starter code for each of these (.py files) at the following link:
 
 I suggest you proceed as follows:
 
-1.  Create a directory called <tt>~/cs8/{{page.num}</tt> (using the `mkdir` command) and `cd` into that directory.
+1.  Create a directory called <tt>~/cs8/{{page.num}}</tt> (using the `mkdir` command) and `cd` into that directory.
 2.  Use `idle3` (you might try `idle3 &` if you want to keep your prompt handy) to bring up idle3.
 3.  Use "New File" to create empty files called <tt>{{page.num}}.py</tt> and <tt>{{page.num}}_tests.py</tt> in 
-    that <tt>~/cs8/{{page.num}</tt> directory.
+    that <tt>~/cs8/{{page.num}}</tt> directory.
 4.  ONE AT A TIME, copy the function definitions from the starter code, and the tests that go along with those, and get the tests to pass.
    * By one a a time, what I mean is, at your first step, copy ONLY the first function definition from  the starter code `lab06.py` and copy only the test cases from `lab06_tests.py` that go with that function definition.
    * Then, before you move on to the next function definition and <em>its</em> tests, get all of the tests from the one you just copied to pass.
