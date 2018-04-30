@@ -31,7 +31,8 @@ I suggest you proceed as follows:
 3.  Use "New File" to create empty files called <tt>{{page.num}}.py</tt> and <tt>{{page.num}}_tests.py</tt> in 
     that <tt>~/cs8/{{page.num}}</tt> directory.
 4.  ONE AT A TIME, copy the function definitions from the starter code, and the tests that go along with those, and get the tests to pass.
-   * By one a a time, what I mean is, at your first step, copy ONLY the first function definition from  the starter code `lab06.py` and copy only the test cases from `lab06_tests.py` that go with that function definition.
+   * By one a a time, what I mean is, at your first step, copy ONLY the first function definition from  the starter code <tt>{{page.num}}.py</tt> and copy only the test cases from <tt>{{page.num}}_tests.py</tt> that go with that function definition.
+   * By one a a time, what I mean is, at your first step, copy ONLY the first function definition from  the starter code <tt>{{page.num}}.py</tt> and copy only the test cases from  that go with that function definition.
    * Then, before you move on to the next function definition and <em>its</em> tests, get all of the tests from the one you just copied to pass.
    * Then, and only then, copy the next function definition and its tests into your files.
    * Repeat this until you have ALL of the function definitions and their tests, and all of them pass.
