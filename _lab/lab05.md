@@ -4,7 +4,7 @@ num: lab05
 ready: true
 desc: "Accumulator Pattern, more TDD practice"
 assigned: 2018-04-30 08:00:00.00
-due: 2018-05-01 21:00:00.00-8
+due: 2018-05-07 21:00:00.00-8
 submit_cs_pnum: 778
 ---
 
