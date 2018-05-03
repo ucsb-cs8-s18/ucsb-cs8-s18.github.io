@@ -3,8 +3,8 @@ layout: lab
 num: lab07
 ready: true
 desc: "Turtle Graphics: Basic shapes"
-assigned: 2018-05-18 17:00:00.00
-due: 2018-05-10 15:30:00.00
+assigned: 2018-05-10 15:30:00.00
+due: 2018-05-18 17:00:00.00
 csxx: cs8
 ---
 
