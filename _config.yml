@@ -4,8 +4,8 @@ legacy_wiki_name: 8wiki
 legacy_wiki_url: "https://foo.cs.ucsb.edu/8wiki" 
 qtr: "S18"
 quarter: "Spring 2018"
-ta_list: "First1, First2, and First3"
-ta_list_full: "Shane Masuda, TA2First Last, and TA3First Last"
+ta_list: "Shane, Mahnaz, and Christian"
+ta_list_full: "Shane Masuda, Mahnaz Koupaee, and Christian Daley"
 instructor: "Conrad"
 mentor_url: "/staff/"
 
@@ -27,7 +27,7 @@ cal_dates: >
   {"label":"Univ Holiday", "date":"2018-05-28" },
   {"label":"Last day of instruction", "date":"2018-06-08" },
   {"label":"Finals Begin", "date":"2018-06-09" },
-  {"label":"Finals End", "date":"2018-06-09" },
+  {"label":"Finals End", "date":"2018-06-15" },
   {"label":"Last day to drop (11pm)", "date":"2018-04-27" },	
   ]
 
