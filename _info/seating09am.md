@@ -1,5 +1,5 @@
 ---
-title: "Seating Chart: 9am"
+title: "Seating Chart (Lab): 9am"
 layout: default
 ready: true
 ---
