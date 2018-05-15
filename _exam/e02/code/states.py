@@ -21,6 +21,30 @@ states = {
 	  "baseball" : ["Mariners"] },     
  }
 
+eastern_states = {
+ "NY" : { "name": "New York",
+          "capital" : "Albany",
+          "largest": "New York",
+	  "baseball": ["Mets","Yankees"] },
+ "PA" : { "name": "Pennsylvania",
+          "capital" : "Harrisburg",
+          "largest" : "Philadelphia",
+          "baseball": ["Phillies","Pirates"] },
+ "MD" : { "name" : "Maryland",
+          "capital" : "Annapolis",
+          "largest" : "Baltimore",
+	  "baseball" : ["Orioles"] },
+ "NJ" : { "name" : "New Jersey",
+          "capital" : "Trenton",
+          "largest" : "Newark",
+	  "baseball" : [] },	 
+ "DE" : { "name" : "Delaware",
+          "capital" : "Dover",
+          "largest" : "Wilmington",
+	  "baseball" : [] },	 
+ }
+
+
 def abbrevToName(states):
     " return a dictionary with abbrev as key, and state name as value"
 
@@ -45,7 +69,7 @@ def listOfStateAbbrevsWithBaseballTeams(states):
             answer.append(key)
     return answer
 
-def listOfStatesWithBaseballTeams(states):
+def listOfStatesWithNoBaseballTeams(states):
 
     answer=[]
     for key in states:
@@ -53,6 +77,12 @@ def listOfStatesWithBaseballTeams(states):
             answer.append(states[key]["name"])
     return answer
 
+def listOfStateCapitals(states):
+
+    answer=[]
+    for key in states:
+        answer = answer + [ states[key]["capital"] ]
+    return answer
 
 
 if __name__=="__main__":

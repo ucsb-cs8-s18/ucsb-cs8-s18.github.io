@@ -2,7 +2,7 @@
 layout: examHandoutNoName
 num: e02
 ready: true
-desc: "Midterm Handout A"
+desc: "Midterm Handout B"
 exam_date: 2018-05-15 15:30:00.00
 ---
 
@@ -10,8 +10,9 @@ exam_date: 2018-05-15 15:30:00.00
 body {
  font-size: 14px;
 }
-
 </style>
+
+{% include cancel_syntax_colors.html %}
 
 # Test cases for indexLargestEvenInt
 
@@ -21,17 +22,18 @@ are no even integers in the list, it should return
 `None`.   
 
 {% highlight python linenos %}
-def test_1():
-    assert indexLargestEvenInt([22,55,88,33,66])==2  # 88 is at index 2
 
-def test_2():
-    assert indexLargestEvenInt([33,11,77])==None     # there are no even ints
+def test_1():      # 88 is at index 2
+    assert indexLargestEvenInt([22,55,88,33,66])==2
 
-def test_3():
-    assert indexLargestEvenInt([33,34,11,66,99])==3   # 66 is at index 3
+def test_2():      # there are no even ints
+    assert indexLargestEvenInt([33,11,77])==None 
 
-def test_4():
-    assert indexLargestEvenInt([44,11,22])==0        # 44 is at index 0
+def test_3():      # 66 is at index 3
+    assert indexLargestEvenInt([33,34,11,66,99])==3 
+
+def test_4():      # 44 is at index 0
+    assert indexLargestEvenInt([44,11,22])==0     
     
 {% endhighlight  %}
 
@@ -72,7 +74,7 @@ def indexLargestEvenInt_b(ilist):
 </div>
 
 <div style="font-size: 16px; font-weight:bold; font-family: Arial Narrow, Arial, sans-serif; border: 1px solid black; padding: 2px; margin: 4px; text-align: center; margin-left: auto; margin-right: auto; width: 40em;">
-Handout for {{site.course}}, Final Exam, {{site.qtr}}, Page 2
+{{page.desc}} for {{site.course}}, Final Exam, {{site.qtr}}, Page 2
 </div>
 
 # Code for `indexLargestEvenInt_c`
@@ -110,4 +112,3 @@ def indexLargestEvenInt_d(ilist):
 {% endhighlight %}
  
 
-</div>
