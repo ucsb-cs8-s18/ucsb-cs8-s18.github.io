@@ -2,7 +2,7 @@
 layout: examHandoutNoName
 num: e02
 ready: true
-desc: "Midterm Handout B"
+desc: "Midterm Handout A"
 exam_date: 2018-05-15 15:30:00.00
 ---
 
