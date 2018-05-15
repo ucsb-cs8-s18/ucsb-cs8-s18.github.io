@@ -1,0 +1,10 @@
+{
+  "largestEvenInt.py::test_a_1": true,
+  "largestEvenInt.py::test_a_3": true,
+  "largestEvenInt.py::test_a_4": true,
+  "largestEvenInt.py::test_c_1": true,
+  "largestEvenInt.py::test_c_3": true,
+  "largestEvenInt.py::test_d_1": true,
+  "largestEvenInt.py::test_d_3": true,
+  "largestEvenInt.py::test_d_4": true
+}
