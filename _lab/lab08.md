@@ -4,11 +4,13 @@ num: lab08
 ready: true
 desc: "2D Lists and Nested for Loops"
 assigned: 2018-05-10 15:30
-due: 2018-05-25 17:00
+due: 2018-05-30 17:00
 csxx: cs8
 labxx_py_url: "https://github.com/ucsb-cs8-s18/ucsb-cs8-s18.github.io/blob/master/_lab/lab08/lab08.py"
 labxx_tests_py_url: "https://github.com/ucsb-cs8-s18/ucsb-cs8-s18.github.io/blob/master/_lab/lab08/lab08_tests.py"
 ---
+
+Accepted LATE through June 2nd 11:59pm, without penalty; after that, will be recorded as a zero.  No exceptions; an extension has already been given.
 
 In this lab, you'll get more practice with:
 
