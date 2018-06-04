@@ -73,10 +73,10 @@ Each note on an instrument has a certain frequency, with notes to the right havi
 
 $$ f = (440)(2^{\frac{m-69}{12}}) $$
 
-Your job when writing the definition for `midi2freq` is to write a Python function that computes this value. 
+Your job when writing the definition for `midi2freq` is to write a Python function that computes this value.   This formula is value when $m$ is an integer between 0 and 127 (inclusive).
 
 <div style="font-size:80%;" markdown="1">
-&#x2a; For the music geeks, A=440Hz, equal temperament
+&#x2a; For the music geeks, A=440Hz, equal temperament.
 </div>
 
 
