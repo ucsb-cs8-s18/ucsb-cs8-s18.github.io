@@ -71,7 +71,7 @@ For electronic musical instruments (for example, keyboards), each key on the key
 
 Each note on an instrument has a certain frequency, with notes to the right having higher frequencies, and notes to the left having lower frequencies.   When instruments are tuned in the usual way&#x2a;, the formula to convert from a midi number <em>m</em> to a frequency <em>f</em> is expressed as follows in math notation:
 
-$$ f = 440 * 2^{\frac{m-69}{12}} $$
+$$ f = (440)(2^{\frac{m-69}{12}}) $$
 
 Your job when writing the definition for `midi2freq` is to write a Python function that computes this value. 
 
