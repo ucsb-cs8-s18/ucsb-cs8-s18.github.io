@@ -40,6 +40,10 @@ Starter code is provided for you and is located at the files below (you may need
 * [{{page.num}}.py](https://github.com/ucsb-cs8-s18/ucsb-cs8-s18.github.io/blob/master/_lab/lab10/lab10.py)
 * [{{page.num}}\_tests.py](https://github.com/ucsb-cs8-s18/ucsb-cs8-s18.github.io/blob/master/_lab/lab10/lab10_tests.py)
 
+For most of the functions the started code and the tests will be enough for you to know what code you are supposed to write.
+
+For the function midi2freq, some additional explanation, provided below, will be needed.
+
 You will complete the portions in the starter code by doing the following:
 
 1.  Create a directory called <tt>~/{{page.csxx}}/{{page.num}}</tt> (using the `mkdir` command) and `cd` into that directory.
@@ -54,6 +58,27 @@ You are encouraged to try submitting to Gradescope periodically for several reas
 * You can get partial credit if some of your tests pass for some of your functions.
 * You will have a backup of your file in case you accidentally delete yours, or in case your laptop dies.
 * You can move code between your laptop and CSIL by downloading your submitted code from Gradescope
+
+# Explanation of `midi2freq`
+
+For electronic musical instruments (for example, keyboards), each key on the keyboard is assigned a particular "midi number", an integer corresponding to the numbers on the illustration shown here: 
+
+![midi chart](piano-to-midi.png)
+
+<div style="font-size:80%;" markdown="1">
+(adapted from an [article by Joe Wolfe, University of New South Wales](https://newt.phys.unsw.edu.au/jw/notes.html))
+</div>
+
+Each note on an instrument has a certain frequency, with notes to the right having higher frequencies, and notes to the left having lower frequencies.   When instruments are tuned in the usual way&#x2a;, the formula to convert from a midi number <em>m</em> to a frequency <em>f</em> is expressed as follows in math notation:
+
+$$ f = (440)(2^{\frac{m-69}{12}}) $$
+
+Your job when writing the definition for `midi2freq` is to write a Python function that computes this value.   This formula is value when $m$ is an integer between 0 and 127 (inclusive).
+
+<div style="font-size:80%;" markdown="1">
+&#x2a; For the music geeks, A=440Hz, equal temperament.
+</div>
+
 
 # Upload `{{page.num}}.py` and `{{page.num}}_tests.py` to Gradescope.
 
