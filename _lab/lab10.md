@@ -61,9 +61,23 @@ You are encouraged to try submitting to Gradescope periodically for several reas
 
 # Explanation of `midi2freq`
 
-For electronic musical instruments (for example, keyboards), each key on the keyboard is assigned a particular "midi number", an integer corresponding to the numbers on the illustration shown here:
+For electronic musical instruments (for example, keyboards), each key on the keyboard is assigned a particular "midi number", an integer corresponding to the numbers on the illustration shown here: 
 
 ![midi chart](midi_chart.jpg)
+
+<div style="font-size:80%;" markdown="1">
+(adapted from an [article by Joe Wolfe, University of New South Wales](https://newt.phys.unsw.edu.au/jw/notes.html))
+</div>
+
+Each note on an instrument has a certain frequency, with notes to the right having higher frequencies, and notes to the left having lower frequencies.   When instruments are tuned in the usual way&#x2a;, the formula to convert from a midi number <em>m</em> to a frequency <em>f</em> is expressed as follows in math notation:
+
+$$ f = 440 * 2^{(m-69)/12} $$
+
+Your job when writing the definition for `midi2freq` is to write a Python function that computes this value. 
+
+<div style="font-size:80%;" markdown="1">
+&#x2a; For the music geeks, A=440Hz, equal temperament
+</div>
 
 
 # Upload `{{page.num}}.py` and `{{page.num}}_tests.py` to Gradescope.
