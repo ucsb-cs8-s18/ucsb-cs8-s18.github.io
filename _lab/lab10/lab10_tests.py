@@ -2,7 +2,7 @@ import pytest
 
 #############
 
-from lab10 import recursiveDigitSum
+from lab10 import spacedString
 
 def test_spacedString_1():
     assert spacedString("UCSB",1)=="U C S B"
