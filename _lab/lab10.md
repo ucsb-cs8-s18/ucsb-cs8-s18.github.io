@@ -32,10 +32,10 @@ Once you and your partner are in agreement, choose an initial driver and navigat
 
 In this lab, you will need to create two files:
 * <tt>{{page.num}}.py</tt> - file containing function definitions
-* <tt>{{page.num}}_student_tests.py</tt> - file containing test cases. A sample test is provided for each function. You will write 3 - 5 (or more) additional tests per function to confirm your code works as expected.
+* <tt>{{page.num}}_tests.py</tt> - file containing test cases.  You are encouraged (though not required) to write 3 - 5 (or more) additional tests per function to confirm your code works as expected.  This will not be checked by the grader, but it is good practice for the final exam---you will be expected to know how to write test cases on the final exam.   You can see for yourself whether your test cases are working.
 * <strong>Please add a comment with you and your partner's name (if applicable) at the top of each file.</strong>
 
-Starter code is provided for you and are located at (you may need to refresh the page if the links do not load immediately):
+Starter code is provided for you and is located at the files below (you may need to refresh the page if the links do not load immediately):
 
 * [{{page.num}}.py](https://github.com/ucsb-cs8-s18/ucsb-cs8-s18.github.io/blob/master/_lab/lab10/lab10.py)
 * [{{page.num}}\_tests.py](https://github.com/ucsb-cs8-s18/ucsb-cs8-s18.github.io/blob/master/_lab/lab10/lab10_student_tests.py)
@@ -57,4 +57,6 @@ You are encouraged to try submitting to Gradescope periodically for several reas
 
 # Upload `{{page.num}}.py` and `{{page.num}}_student_tests.py` to Gradescope.
 
-Once you're done with writing your functions, navigate to the Lab assignment {{page.num}} on Gradescope and upload your `{{page.num}}.py` and `{{page.num}}_student_tests.py` files. <strong>*Remember to add your name, and your partner to Groups Members for this submission on Gradescope if applicable. At this point, if you worked in a pair, it is a good idea for both partners to log into Gradescope and see if you can see the uploaded files for {{page.num}}.*</strong>
+Once you're done with writing your functions, navigate to the Lab assignment {{page.num}} on Gradescope and upload your `{{page.num}}.py` and `{{page.num}}_tests.py` files. <strong>*Remember to add your name, and your partner to Groups Members for this submission on Gradescope if applicable. 
+  
+At this point, if you worked in a pair, it is a good idea for both partners to log into Gradescope and see if you can see the uploaded files for {{page.num}}.*</strong>
