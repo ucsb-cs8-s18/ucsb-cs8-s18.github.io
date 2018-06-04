@@ -63,7 +63,7 @@ You are encouraged to try submitting to Gradescope periodically for several reas
 
 For electronic musical instruments (for example, keyboards), each key on the keyboard is assigned a particular "midi number", an integer corresponding to the numbers on the illustration shown here: 
 
-![midi chart](midi_chart.jpg)
+![midi chart](piano-to-midi.png)
 
 <div style="font-size:80%;" markdown="1">
 (adapted from an [article by Joe Wolfe, University of New South Wales](https://newt.phys.unsw.edu.au/jw/notes.html))
