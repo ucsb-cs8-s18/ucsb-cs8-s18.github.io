@@ -10,64 +10,194 @@ exam_date: 2018-05-15 15:30:00.00
 body {
  font-size: 14px;
 }
+
+table.outputChoices * td {
+ padding: 1em;
+}
+
 </style>
 
 {% include cancel_syntax_colors.html %}
 
-# Test cases for indexLargestEvenInt
+# Output choices for screen question
 
-`indexLargestEvenInt` should return the index
-in the list of the largest even integer.   If there
-are no even integers in the list, it should return
-`None`.   
+<table class="outputChoices">
 
-{% highlight python linenos %}
+<tr>
+<td markdown="1"> (1)
 
-def test_1():      # 88 is at index 2
-    assert indexLargestEvenInt([22,55,88,33,66])==2
+```
+*********
+*********
+*********
+         
+*********
+*********
+*********
+*********
+```
 
-def test_2():      # there are no even ints
-    assert indexLargestEvenInt([33,11,77])==None 
+</td>
 
-def test_3():      # 66 is at index 3
-    assert indexLargestEvenInt([33,34,11,66,99])==3 
+<td markdown="1"> (2)
 
-def test_4():      # 44 is at index 0
-    assert indexLargestEvenInt([44,11,22])==0     
-    
-{% endhighlight  %}
+```
+**** ****
+**** ****
+**** ****
+**** ****
+**** ****
+**** ****
+**** ****
+**** ****
+```
 
-# Code for `indexLargestEvenInt_a`
+</td>
 
-{% highlight python linenos %}
-def indexLargestEvenInt_a(ilist):
-    "index of largest even integer; None if no even ints"
-    if type(ilist)!=list:
-        raise ValueError("not a list")
-    answer=None
-    for x in ilist:
-      if x%2 == 0:
-        if answer==None or x > answer:
-          answer = x
-    return answer	  
-{% endhighlight %}
+<td markdown="1"> (3)
+<em>choose this number</em><br>
+<em>to indicate that</em><br>
+<em>there is <b>no output</b></em>
+</td>
+
+<td markdown="1">
+(4)
+```
+****
+****
+****
+```
+
+</td>
 
 
-# Code for `indexLargestEvenInt_b`
+</tr>
+<tr>
+<td colspan="4" markdown="1">
+(5)
+```
+TypeError: object of type 'NoneType' has no len()
+```
+</td>
+</tr>
+<tr>
+<td markdown="1">
+(6)
+
+```
+*********
+*********
+*** *** *
+*** *** *
+*** *** *
+***     *
+*********
+*********
+```
+
+</td>
+
+<td markdown="1">
+(7)
+```
+*********
+*********
+***     *
+*** *** *
+*** *** *
+*** *** *
+*********
+*********
+```
+</td>
+
+<td markdown="1">
+(8)
+```
+*********
+**    ***
+*** *****
+*** *****
+*** *****
+*** *****
+*** *****
+*********
+```
+</td>
+
+<td markdown="1">
+(9)
+```
+***
+***
+***
+***
+```
+
+</td>
 
 
-{% highlight python linenos %}
-def indexLargestEvenInt_b(ilist):
-    if type(ilist)!=list:
-        raise ValueError("not a list")
-    answer=None
-    for i in range(len(ilist)):
-      if ilist[i]%2 == 0:
-        if answer==None or ilist[i] > ilist[answer]:
-          answer = i
-    return answer
+</tr>
 
-{% endhighlight %}
+
+<td markdown="1"> (10)
+
+```
+*********
+*********
+*********
+*********
+         
+*********
+*********
+*********
+```
+
+</td>
+
+<td markdown="1"> (11)
+
+```
+***** ***
+***** ***
+***** ***
+***** ***
+***** ***
+***** ***
+***** ***
+***** ***
+```
+
+</td>
+
+<td markdown="1"> (12)
+```
+*********
+*********
+*** *****
+**** ****
+*****  **
+******* *
+*********
+*********
+```
+
+</td>
+
+<td markdown="1">
+(13)
+```
+****
+****
+****
+****
+```
+
+</td>
+</tr>
+
+</table>
+
 
 
 <div style="page-break-before:always;">
@@ -77,38 +207,4 @@ def indexLargestEvenInt_b(ilist):
 {{page.desc}} for {{site.course}}, Final Exam, {{site.qtr}}, Page 2
 </div>
 
-# Code for `indexLargestEvenInt_c`
-
-
-{% highlight python linenos %}
-def indexLargestEvenInt_c(ilist):
-
-    if type(ilist)!=list:
-        raise ValueError("not a list")
-    answer=None
-    for i in range(len(ilist)):
-      if ilist[i]%2 == 0:
-        if answer==None or ilist[i] > ilist[answer]:
-          answer = i
-      return answer
-
-{% endhighlight %}
-
-
-# Code for `indexLargestEvenInt_d`
-
-
-{% highlight python linenos %}
-def indexLargestEvenInt_d(ilist):
-
-    if type(ilist)!=list:
-        raise ValueError("not a list")
-    answer=None
-    for x in ilist:
-      if (x%2 == 0) and x > answer:
-        answer = x
-    return answer
-
-{% endhighlight %}
- 
-
+# TBD

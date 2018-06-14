@@ -1,9 +1,9 @@
 ---
 layout: examHandoutNoName
-num: e02
+num: e03
 ready: true
 desc: "Midterm Handout A"
-exam_date: 2018-05-15 15:30:00.00
+exam_date: 2018-06-14 16:00:00.00
 ---
 
 <style>
@@ -15,44 +15,47 @@ body {
 
 {% include cancel_syntax_colors.html %}
 
-# Dictionary `states`
+# `screen` functions
 
-The dictionary `states` maps state abbreviations such as `AZ` and `CA` to dictionaries with information
-about states of the United States.   The three items in those dictionaries are:
+<table>
+<tr>
+<td markdown="1">
 
-* `"name"`: the name of the state (e.g. "Arizona", or "California")
-* `"capital"`: the capital city of that state (e.g. "Sacramento")
-* `"largest"`: the largest city in that state (e.g. "Los Angeles")
-* `"baseball"`: the names of the major league professional baseball teams in that state, if any. 
+```
+def create_screen(rows, columns):
+    '''
+    Creates a screen of rows x columns pixels
+    '''
+    grid = []
+    for row in range(rows):
+        grid.append([0] * columns)
+    return grid
+```
 
-The dictionary `states` only has information about five western states.
-On the back of this handout is another example of one of these dictionaries, with information on
-a few eastern states.
+</td>
 
-{% highlight python linenos %}
-states = {
- "AZ" : { "name": "Arizona",
-          "capital" : "Phoenix",
-          "largest": "Phoenix",
-	  "baseball": ["Diamondbacks"] },
- "CA" : { "name": "California",
-          "capital" : "Sacramento",
-          "largest" : "Los Angeles",
-          "baseball": ["Angels","Dogders","A's","Padres","Giants"] },
- "NV" : { "name" : "Nevada",
-          "capital" : "Carson City",
-          "largest" : "Las Vegas",
-	  "baseball" : [] },
- "OR" : { "name" : "Oregon",
-          "capital" : "Salem",
-          "largest" : "Portland",
-	  "baseball" : [] },	 
- "WA" : { "name" : "Washington",
-          "capital" : "Olympia",
-          "largest" : "Seattle",
-	  "baseball" : ["Mariners"] },     
- }
-{% endhighlight %}
+<td markdown="1">
+
+```
+def print_screen(screen):
+    ''' Prints the screen to the console.
+        When a pixel == 0, then a '*' is displayed
+        When a pixel == 1, then a ' ' is displayed
+    '''
+    for row in range(len(screen)):
+        for col in range(len(screen[0])):
+            if screen[row][col] == 0:
+                print('*', end='')
+            else:
+                print(' ', end='')
+        print()
+    return
+```
+
+</td>
+</tr>
+</table>
+
 
 <div style="page-break-before:always;">
 </div>
@@ -61,30 +64,10 @@ states = {
 {{page.desc}} for {{site.course}}, Final Exam, {{site.qtr}}, Page 2
 </div>
 
+# TBD
 
 {% highlight python linenos %}
-eastern_states = {
- "NY" : { "name": "New York",
-          "capital" : "Albany",
-          "largest": "New York",
-	  "baseball": ["Mets","Yankees"] },
- "PA" : { "name": "Pennsylvania",
-          "capital" : "Harrisburg",
-          "largest" : "Philadelphia",
-          "baseball": ["Phillies","Pirates"] },
- "MD" : { "name" : "Maryland",
-          "capital" : "Annapolis",
-          "largest" : "Baltimore",
-	  "baseball" : [Orioles] },
- "NJ" : { "name" : "New Jersey",
-          "capital" : "Trenton",
-          "largest" : "Newark",
-	  "baseball" : [] },	 
- "DE" : { "name" : "Delaware",
-          "capital" : "Dover",
-          "largest" : "Wilmington",
-	  "baseball" : [] },	 
- }
+TBD
 {% endhighlight %}
 
 
