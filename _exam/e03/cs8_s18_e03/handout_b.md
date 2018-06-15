@@ -139,7 +139,7 @@ TypeError: object of type 'NoneType' has no len()
 
 </tr>
 
-
+<tr>
 <td markdown="1"> (10)
 
 ```
@@ -197,14 +197,3 @@ TypeError: object of type 'NoneType' has no len()
 </tr>
 
 </table>
-
-
-
-<div style="page-break-before:always;">
-</div>
-
-<div style="font-size: 16px; font-weight:bold; font-family: Arial Narrow, Arial, sans-serif; border: 1px solid black; padding: 2px; margin: 4px; text-align: center; margin-left: auto; margin-right: auto; width: 40em;">
-{{page.desc}} for {{site.course}}, Final Exam, {{site.qtr}}, Page 2
-</div>
-
-# TBD

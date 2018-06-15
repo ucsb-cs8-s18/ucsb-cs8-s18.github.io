@@ -8,7 +8,7 @@ exam_date: 2018-06-14 16:00:00.00
 
 <style>
 body {
- font-size: 14px;
+ font-size: 12px;
 }
 
 </style>
@@ -128,26 +128,11 @@ def vista():
     print_screen(drawReverseThing(s,2,3,5,7))
 
 ```
-
 </td>
 </tr>
 
 
 
 </table>
-
-
-<div style="page-break-before:always;">
-</div>
-
-<div style="font-size: 16px; font-weight:bold; font-family: Arial Narrow, Arial, sans-serif; border: 1px solid black; padding: 2px; margin: 4px; text-align: center; margin-left: auto; margin-right: auto; width: 40em;">
-{{page.desc}} for {{site.course}}, Final Exam, {{site.qtr}}, Page 2
-</div>
-
-# TBD
-
-{% highlight python linenos %}
-TBD
-{% endhighlight %}
 
 
