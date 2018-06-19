@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab10
-ready: false
+ready: true
 desc: "Review for Final (optional)"
 assigned: 2018-06-04 08:00:00.00
 due: 2018-06-08 17:00
