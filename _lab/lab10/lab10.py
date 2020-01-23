@@ -11,7 +11,7 @@ def spacedString(s,n):
   """
   separate each character in string s by n blanks 
   no extra blanks at the end though
-  s should be a list, and n should be an int >0,
+  s should be a string, and n should be an int >0,
   otherwise raise ValueError
   """
   
